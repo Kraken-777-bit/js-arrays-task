@@ -6,7 +6,7 @@ const getDistance = ([x1, y1], [x2, y2]) => {
   };
 
 // BEGIN
-const getTheNearestLocation = (locations, point) => {
+export const getTheNearestLocation = (locations, point) => {
   if (locations.length === 0) {
     return null; 
   }
